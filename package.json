@@ -1,0 +1,33 @@
+{
+  "name": "@anistack72/ai-runtime-doctor",
+  "version": "0.1.0",
+  "description": "Read-only diagnostics for Ollama and LM Studio, with local-only requests and portable reports.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ai-runtime-doctor": "./cli.mjs"
+  },
+  "exports": "./index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check cli.mjs && node --check index.mjs",
+    "demo": "node demo.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "index.mjs",
+    "support.mjs",
+    "README.md",
+    "LICENSE",
+    "header.png",
+    "demo.mjs"
+  ],
+  "license": "MIT",
+  "author": "Anis Mosbah",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anistack72/ai-runtime-doctor.git"
+  }
+}
