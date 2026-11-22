@@ -69,6 +69,8 @@ Endpoint adapters follow [Ollama model listing](https://docs.ollama.com/api/tags
 
 ## Reproducible demonstration
 
+Start with the [fixture-only walkthrough](docs/try-it.md): no production data or configured service is required. The same terminal, JSON and HTML demo paths are checked by `demo.test.mjs`.
+
 ```sh
 node demo.mjs
 node demo.mjs html > demo-report.html
