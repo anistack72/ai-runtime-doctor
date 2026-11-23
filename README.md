@@ -31,7 +31,7 @@ node cli.mjs --runtime ollama --format json > runtime-report.json
 node cli.mjs --runtime lmstudio --timeout 5000 --format html > runtime-report.html
 ```
 
-Requires **Node.js 22+**. There are no runtime dependencies. This package is distributed from source; it has not been published to npm.
+Requires **Node.js 22+**. There are no runtime dependencies. This package is distributed from source and GitHub releases; it has not been published to npm.
 
 ## Use from JavaScript
 
@@ -92,3 +92,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for changes and [SECURITY.md](SECURITY.md
 ---
 
 Built by **Anis Mosbah** · [Professional enquiries](mailto:contact@anis-mosbah.dev) · [MIT license](LICENSE)
+
+## Versioned packages
+
+[GitHub releases](https://github.com/anistack72/ai-runtime-doctor/releases) provide the npm source tarball and `SHA256SUMS.txt`. Release publication runs only after the complete Node 22/24 test matrix passes on Linux, macOS and Windows. Published versions and tags are preserved; no new release is created until `package.json` has a new version. This workflow does not publish to the npm registry.
